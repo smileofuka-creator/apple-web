@@ -219,7 +219,9 @@
   height: 692px;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: flex-end;
+  padding-bottom: 82px;
 }
 .frame3 {
   display: flex;
@@ -276,4 +278,243 @@
   font-weight: 400;
   line-height: 20px; /* 125% */
   letter-spacing: -0.374px;
+}
+/* 6 tai heseg */
+.background4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 12px;
+  align-self: stretch;
+  flex-wrap: wrap;
+  width: 1920px;
+  height: 1764px;
+}
+
+.box1 {
+  background-image: url("images/bluepad.png");
+  width: 942px;
+  height: 580px;
+}
+.box1-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 58px;
+  padding-bottom: 53px;
+  justify-content: space-between;
+  height: 580px;
+}
+
+.box1-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+.box1-text1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.box2 {
+  background-image: url("images/Figurehead.png");
+  width: 942px;
+  height: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 4px;
+  padding: 50px;
+}
+
+.box2-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #f5f5f7;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
+}
+
+.box2-text1 {
+  color: #f5f5f7;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+}
+
+.box3 {
+  background-image: url("images/watch.png");
+  width: 942px;
+  height: 580px;
+  gap: 16px;
+  padding: 70px;
+}
+
+.text3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.smallapple {
+  display: flex;
+  flex-direction: row;
+}
+.logoword {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.watch {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.watchdetial {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+}
+
+.box4 {
+  background-image: url("images/mac.png");
+  width: 942px;
+  height: 580px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 48px;
+  gap: 10px;
+}
+.box4-text {
+  width: 370px;
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
+}
+
+.box4-text1 {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+}
+.box5 {
+  background-image: url("images/phone.png");
+  width: 942px;
+  height: 580px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 58.42px;
+  gap: 16px;
+}
+
+.tradelogo {
+  display: flex;
+  flex-direction: row;
+
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.tradep {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+  width: 322px;
+}
+
+.tradebutton {
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 999px;
+  background: #0071e3;
+
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+
+.box6 {
+  background-image: url("images/card.png");
+  width: 942px;
+  height: 580px;
 }
