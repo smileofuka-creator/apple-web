@@ -89,7 +89,7 @@
   align-items: center;
   justify-content: center;
   gap: 16px;
-  height: 44px;
+  margin-top: 16px;
 }
 .learnmore {
   display: flex;
@@ -279,7 +279,9 @@
   line-height: 20px; /* 125% */
   letter-spacing: -0.374px;
 }
-/* 6 tai heseg */
+
+/* 4 r heseg ehlej bn */
+
 .background4 {
   display: flex;
   justify-content: center;
@@ -291,42 +293,29 @@
   width: 1920px;
   height: 1764px;
 }
-
-.box1 {
-  background-image: url("images/bluepad.png");
+.box {
   width: 942px;
   height: 580px;
-}
-.box1-frame {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 58px;
-  padding-bottom: 53px;
-  justify-content: space-between;
+  padding: 58px;
+  gap: 4px;
+}
+.boxcolor {
+  width: 942px;
   height: 580px;
-}
-
-.box1-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
-  color: #1d1d1f;
-  text-align: center;
-  font-family: Inter;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px; /* 138.889% */
-  margin-top: 8px;
-  margin-bottom: 12px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
 }
-.box1-text1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 
+#iPad {
+  background-image: url("images/bluepad.png");
+}
+.colorword {
   text-align: center;
   font-family: Inter;
   font-size: 14px;
@@ -344,25 +333,14 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-bottom: 53px;
 }
-
-.box2 {
+#airpod {
   background-image: url("images/Figurehead.png");
-  width: 942px;
-  height: 580px;
   display: flex;
-  align-items: center;
   justify-content: flex-end;
-  flex-direction: column;
-  gap: 4px;
-  padding: 50px;
 }
-
-.box2-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
+.airpod1 {
   color: #f5f5f7;
   text-align: center;
   font-family: Inter;
@@ -371,8 +349,7 @@
   font-weight: 600;
   line-height: 44px; /* 122.222% */
 }
-
-.box2-text1 {
+.pod {
   color: #f5f5f7;
   text-align: center;
   font-family: Inter;
@@ -381,27 +358,15 @@
   font-weight: 400;
   line-height: 25px; /* 138.889% */
 }
-
-.box3 {
+#watch {
   background-image: url("images/watch.png");
-  width: 942px;
-  height: 580px;
-  gap: 16px;
-  padding: 70px;
-}
-
-.text3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.smallapple {
-  display: flex;
-  flex-direction: row;
 }
 .logoword {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+h2 {
   color: #000;
   text-align: center;
   font-family: Inter;
@@ -410,7 +375,7 @@
   font-weight: 700;
   line-height: normal;
 }
-.watch {
+.series {
   color: #000;
   text-align: center;
   font-family: Inter;
@@ -420,70 +385,7 @@
   line-height: normal;
   letter-spacing: 2px;
 }
-.watchdetial {
-  color: #1d1d1f;
-  text-align: center;
-  font-family: Inter;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px; /* 138.889% */
-}
-
-.box4 {
-  background-image: url("images/mac.png");
-  width: 942px;
-  height: 580px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 48px;
-  gap: 10px;
-}
-.box4-text {
-  width: 370px;
-  color: #1d1d1f;
-  text-align: center;
-  font-family: Inter;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 44px; /* 122.222% */
-}
-
-.box4-text1 {
-  color: #1d1d1f;
-  text-align: center;
-  font-family: Inter;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px; /* 138.889% */
-}
-.box5 {
-  background-image: url("images/phone.png");
-  width: 942px;
-  height: 580px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 58.42px;
-  gap: 16px;
-}
-
-.tradelogo {
-  display: flex;
-  flex-direction: row;
-
-  color: #000;
-  text-align: center;
-  font-family: Inter;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.tradep {
+p {
   color: #1d1d1f;
   text-align: center;
   font-family: Inter;
@@ -493,28 +395,12 @@
   line-height: 25px; /* 138.889% */
   width: 322px;
 }
-
-.tradebutton {
-  display: flex;
-  padding: 10px 16px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-
-  border-radius: 999px;
-  background: #0071e3;
-
-  color: #fff;
-  text-align: center;
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px; /* 125% */
+#macbookair {
+  background-image: url("images/mac.png");
 }
-
-.box6 {
+#tradein {
+  background-image: url("images/phone.png");
+}
+#card {
   background-image: url("images/card.png");
-  width: 942px;
-  height: 580px;
 }
