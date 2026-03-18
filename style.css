@@ -497,6 +497,7 @@ h2 {
   height: 236px;
   align-items: flex-start;
   gap: 16px;
+  overflow: scroll;
 }
 
 .link {
