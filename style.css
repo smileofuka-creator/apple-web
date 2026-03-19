@@ -574,9 +574,14 @@ h2 {
 .half:hover .linka {
   filter: brightness(100%);
 }
-.footer:hover .half {
+.footer:hover .half .linka{
   filter: grayscale(1);
 }
+
+.footer .half .linka:hover{
+  filter: grayscale(0);
+}
+
 .linka:hover .listen-button {
   opacity: 1;
 }
@@ -671,32 +676,3 @@ h2 {
 
 
 
-
-
-
-
-
-/* huuchin zagvaruud */
-background 4
-
- display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  align-content: flex-start;
-  gap: 12px;
-  align-self: stretch;
-  flex-wrap: wrap;
-  width: 1920px;
-  height: 1764px;
-  background-size: cover;
-  flex-direction: column;
-
-
-box
-    width: 50%;
-  height: 580px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 58px;
-  gap: 4px;
