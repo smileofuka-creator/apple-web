@@ -419,6 +419,7 @@ h2 {
 .scrollframe {
   display: flex;
   align-items: flex-end;
+  background-size: cover;
 }
 .scroll-item {
   min-width: 1250px;
@@ -427,7 +428,7 @@ h2 {
   padding: 58px;
   gap: 20px;
 }
-```.steam {
+.steam {
   display: inline-flex;
   padding: 12px 20px;
   justify-content: center;
@@ -463,15 +464,35 @@ h2 {
   line-height: 20px; /* 117.647% */
 }
 #item1 {
-  background-image: url("./images/ben.jpg");
+  background-image: url("./images/bad-monkey.jpg");
 }
 #item2 {
-  background-image: url("./images/Link.png");
+  background-image: url("./images/baseball.jpg");
 }
 #item3 {
-  background-image: url("./images/sh.jpg");
+  background-image: url("./images/instigators.jpg");
 }
-
+#item4 {
+  background-image: url("./images/k-pop-idols.jpg");
+}
+#item5 {
+  background-image: url("./images/lady-in-the-lake.jpg");
+}
+#item6 {
+  background-image: url("./images/morning-show.jpg");
+}
+#item7 {
+  background-image: url("./images/napoleon.jpg");
+}
+#item8 {
+  background-image: url("./images/pachinko.jpg");
+}
+#item9 {
+  background-image: url("./images/pressumed-innocent.jpg");
+}
+#item10 {
+  background-image: url("./images/season-pass.jpg");
+}
 .tablist {
   width: 1920px;
   height: 8px;
@@ -490,25 +511,70 @@ h2 {
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.8);
 }
+.item-dot:hover {
+  border: 4px solid #f2416b;
+}
 
 .footer {
-  width: 1920px;
   display: inline-flex;
   height: 236px;
   align-items: flex-start;
   gap: 16px;
-  overflow: scroll;
+  filter: brightness(200px);
+
+  animation-name: slider;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation: slider 20s infinite;
+}
+@keyframes slider {
+  from {
+    transform: translate(0vw);
+  }
+  to {
+    transform: translate(-50%);
+  }
 }
 
-.link {
+.linka {
+  scroll-snap-align: center;
+  transition: transform 0.5s;
+  position: relative;
   min-width: 417px;
   height: 236px;
   display: flex;
   align-items: end;
-  justify-content: space-between;
   padding: 20px;
 }
+.linka:hover {
+  filter: brightness(0.5);
+}
+.linka:hover .listen-button {
+  opacity: 1;
+}
+.footer:hover {
+  animation-play-state: paused;
+}
+.listen-button {
+  position: absolute;
+  top: 98px;
+  left: 160px;
+  opacity: 0;
+}
+.listen {
+  padding: 7px 15px;
+  border-radius: 999px;
+  background-color: white;
 
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}
+.linka:hover .listen {
+  transition: all 0.3s ease;
+}
 .link-text {
   color: #fff;
   font-family: Inter;
@@ -517,12 +583,12 @@ h2 {
   font-weight: 600;
   line-height: 18px; /* 128.571% */
   letter-spacing: -0.224px;
-  width: 223.7px;
 }
 .rb {
   display: flex;
   align-items: center;
   height: 200px;
+  margin-left: 50px;
 }
 .rb-text {
   color: #fff;
@@ -533,18 +599,40 @@ h2 {
   line-height: 18px; /* 128.571% */
   letter-spacing: -0.224px;
 }
-#link1 {
-  background-image: url("./images/1.png");
-}
-#link2 {
+
+#link11 {
   background: #1b2632;
 }
-#link3 {
-  background-image: url("./images/3.png");
+#link12 {
+  background-color: rgba(0, 0, 0, 0.2);
 }
-#link4 {
-  background-image: url("./images/4.png");
+#link13 {
+  background-image: url("./images/slide/3.jpg");
+  background-size: cover;
 }
-#link5 {
-  background: #ebb799;
+#link14 {
+  background-image: url("./images/slide/4.jpg");
+  background-size: cover;
+}
+#link15 {
+  background-image: url("./images/slide/5.jpg");
+  background-size: cover;
+}
+#link16 {
+  background-image: url("./images/slide/6.jpg");
+  background-size: cover;
+}
+#link17 {
+  background-image: url("./images/slide/7.jpg");
+  background-size: cover;
+}
+#link18 {
+  background-color: rgb(64, 13, 14);
+}
+#link19 {
+  background-image: url(./images/slide/9.jpg);
+  background-size: cover;
+}
+#link20 {
+  background-color: rgb(38, 38, 38);
 }
