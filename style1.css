@@ -41,12 +41,13 @@
 }
 
 .frame1 {
-width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
   align-self: stretch;
+  background-color: #f5f5f7;
 }
 .background {
   width: 100%;
@@ -171,8 +172,9 @@ width: 100%;
   padding: 0 140px;
   align-items: center;
   gap: 12px;
-  width: 1616px;
+  width: 100%;
   height: 146px;
+  justify-content: center;
 }
 .list {
   display: flex;
@@ -196,4 +198,135 @@ width: 100%;
   font-style: normal;
   font-weight: 700;
   line-height: 20px; /* 142.857% */
+}
+
+.frame65 {
+  width: 100%;
+  height: 3836px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 60px;
+  align-self: stretch;
+}
+
+.section1 {
+  width: 100%;
+  height: 558px;
+  display: flex;
+  padding: 0 140px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.section-title {
+  display: flex;
+  width: 331.64px;
+  height: 34px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color: #6e6e73;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+.highlight {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.itemdetial {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.listitem {
+  position: relative;
+  width: 480px;
+  height: 500px;
+  background: url(<path-to-image>) lightgray 0px 0px / 100% 100% no-repeat;
+  gap: 12px;
+}
+
+#iphone16pro {
+  background-image: url("./images1/store-card-50-holiday-iphone-pro-202411_GEO_US.png");
+}
+#watch10 {
+  background-image: url("./images1/store-card-50-holiday-watch-s10-202411.png");
+}
+#ipadmini {
+  background-image: url("./images1/store-card-50-holiday-ipad-mini-202411.png");
+}
+#macpro {
+  background-image: url("./images1/store-card-50-holiday-macbook-pro-202411.png");
+}
+.listitemout {
+  display: flex;
+  width: 322px;
+  height: 88px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 9px;
+}
+.listitem-head {
+  display: flex;
+}
+
+.heading3 {
+  display: flex;
+  width: 132px;
+  height: 14px;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #b64400;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+}
+.listdetial {
+  gap: 12px;
+}
+.listitem-text {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.077% */
+  letter-spacing: 0.196px;
+}
+
+.listitem-text1 {
+  display: flex;
+  height: 20px;
+  width: 322px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
 }
