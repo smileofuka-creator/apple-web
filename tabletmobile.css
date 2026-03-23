@@ -1,0 +1,11 @@
+.menubar {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .menubar {
+    display: block;
+  }
+  .head-text {
+    display: none;
+  }
+}
