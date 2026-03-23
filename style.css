@@ -32,7 +32,6 @@ a :-webkit-any-link {
   align-items: center;
   gap: 24px;
   background: rgba(245, 245, 247, 0.8);
-  margin-top: 8px;
 }
 .headbar {
   display: flex;
@@ -74,6 +73,16 @@ a :-webkit-any-link {
   height: 692px;
   margin-bottom: 12px;
 }
+.back31 {
+  background-image: url("./tablet/back3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 692px;
+  margin-bottom: 12px;
+}
+
 .frame1 {
   display: flex;
   height: 172px;
@@ -325,6 +334,24 @@ a :-webkit-any-link {
   grid-template-columns: repeat(2, 1fr);
   background-size: cover;
 }
+.frame5 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-block: 53px;
+  flex-direction: column;
+  padding-block: 48px 58px;
+}
+
+.back311 {
+  width: 100%;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
 .box {
   display: flex;
   text-align: center;
@@ -371,6 +398,14 @@ a :-webkit-any-link {
 }
 #airpod {
   background-image: url("images/Figurehead.png");
+  display: flex;
+  justify-content: flex-end;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#airpod4 {
+  background-image: url("./tablet/headphone.png");
   display: flex;
   justify-content: flex-end;
   background-position: center;

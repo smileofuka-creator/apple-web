@@ -1,11 +1,66 @@
 .menubar {
   display: none;
 }
+.background31 {
+  display: none;
+}
+#airpod4 {
+  display: none;
+}
 @media (max-width: 1000px) {
+  .background3 {
+    display: none;
+  }
+  .background31 {
+    display: block;
+  }
+
   .menubar {
     display: block;
   }
   .head-text {
     display: none;
+  }
+  /* .headermenu {
+    justify-content: space-between;
+  } */
+  .logo {
+    justify-content: space-between;
+  }
+  .background1 {
+    background-image: url("tablet/background1tablet.png");
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .frame1-text {
+    font-size: 42px;
+  }
+  .frame1-text1 {
+    font-size: 22px;
+  }
+  .frame2-text {
+    font-size: 42px;
+  }
+  .frame2-text1 {
+    font-size: 22px;
+  }
+  .background2 {
+    background-image: url("tablet/back2.png");
+  }
+  .background3 {
+    background-image: url("tablet/back3.png");
+  }
+  .background4 {
+  }
+  #iPad {
+    display: none;
+  }
+
+  #airpod4 {
+    display: block;
   }
 }
