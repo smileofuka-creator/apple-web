@@ -1,0 +1,26 @@
+@media (max-width: 390px) {
+  .background1 {
+    background-image: url("./mobile/back1.png");
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  .frame1 {
+    gap: 0px;
+  }
+  .background1 .buttons {
+    margin-bottom: 36px;
+  }
+  .frame1-text {
+    font-size: 36px;
+  }
+  .frame1-text1 {
+    font-size: 18px;
+  }
+  .frame2-text {
+    font-size: 28px;
+  }
+  .frame2-text1 {
+    font-size: 18px;
+  }
+}

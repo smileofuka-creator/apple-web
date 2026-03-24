@@ -1,13 +1,27 @@
 .menubar {
   display: none;
 }
+.logo {
+  display: flex;
+}
 .background31 {
   display: none;
 }
 #airpod4 {
   display: none;
 }
-@media (max-width: 1000px) {
+#business {
+  display: none;
+  padding: 52px;
+
+  align-items: center;
+}
+#carrier {
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+@media (max-width: 768px) {
   .background3 {
     display: none;
   }
@@ -18,23 +32,18 @@
   .menubar {
     display: block;
   }
-  .head-text {
+  .head-textnav {
     display: none;
   }
-  /* .headermenu {
-    justify-content: space-between;
-  } */
-  .logo {
-    justify-content: space-between;
-  }
+
   .background1 {
     background-image: url("tablet/background1tablet.png");
   }
   .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    width: 100%;
     gap: 24px;
+    padding: 16px;
   }
   .frame1-text {
     font-size: 42px;
@@ -54,13 +63,73 @@
   .background3 {
     background-image: url("tablet/back3.png");
   }
-  .background4 {
-  }
+
   #iPad {
     display: none;
   }
 
   #airpod4 {
-    display: block;
+    display: flex;
   }
+  #airpod {
+    display: none;
+  }
+  #watch {
+    background-image: url("./tablet/watch.png");
+  }
+  #business {
+    background-image: url("./tablet/small.png");
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #carrier {
+    background-image: url("./tablet/career.png");
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #card {
+    display: none;
+  }
+  .scroll {
+    height: 368px;
+  }
+  .scroll-item {
+    min-width: 689px;
+  }
+  .half {
+    height: 161px;
+  }
+  .linka {
+    height: 161px;
+    width: 286px;
+  }
+  .listen-button {
+    top: 30%;
+    left: 25%;
+  }
+}
+#business h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 257px;
+  height: 72px;
+}
+#business p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 257px;
+  height: 72px;
+}
+
+#carrier p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
