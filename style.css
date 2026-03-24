@@ -77,14 +77,24 @@ a :-webkit-any-link {
   height: 692px;
   margin-bottom: 12px;
 }
+.backframe1 {
+  display: flex;
+  flex-direction: column;
+}
+.backframe2 {
+  display: flex;
+  flex-direction: column;
+}
 .back31 {
   background-image: url("./tablet/back3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 692px;
+  height: 650px;
   margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
 }
 
 .frame1 {
@@ -93,7 +103,7 @@ a :-webkit-any-link {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 0px;
 }
 .frame1-text {
   color: #f5f5f7;
@@ -129,7 +139,6 @@ a :-webkit-any-link {
   align-items: center;
   justify-content: center;
   gap: 16px;
-  margin-top: 16px;
 }
 .learnmore {
   display: flex;
@@ -182,7 +191,7 @@ a :-webkit-any-link {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 0px;
 }
 .frame2-text {
   color: #f5f5f7;
@@ -472,7 +481,6 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: 25px; /* 138.889% */
-  width: 322px;
 }
 #macbookair {
   background-image: url("images/mac.png");

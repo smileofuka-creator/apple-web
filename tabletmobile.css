@@ -35,7 +35,10 @@
   .head-textnav {
     display: none;
   }
-
+  .frame1 {
+    height: 156px;
+    gap: 0px;
+  }
   .background1 {
     background-image: url("tablet/background1tablet.png");
   }
@@ -63,7 +66,32 @@
   .background3 {
     background-image: url("tablet/back3.png");
   }
+  .back311 {
+    display: flex;
+    width: 100vw;
+  }
+  .background31 .buttons {
+    margin-top: 0;
+    font-size: 22px;
+  }
 
+  .back311 .frame5 {
+    gap: 8px;
+    padding-block: 48px 16px;
+  }
+  .back311 .subtitle {
+    font-size: 22px;
+  }
+  .airpod1 {
+    font-size: 30px;
+  }
+  .pod {
+    font-size: 18px;
+    width: 240px;
+  }
+  h2 {
+    font-size: 28px;
+  }
   #iPad {
     display: none;
   }
@@ -132,4 +160,63 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 390px) {
+  .background1 {
+    background-image: url("./mobile/back1.png");
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 500px;
+    width: 100vw;
+  }
+  .background2 {
+    background-image: url("./mobile/back2.png");
+    height: 500px;
+  }
+  .frame1 {
+    gap: 0px;
+    height: 114px;
+  }
+  .frame2 {
+    gap: 0;
+    height: 114px;
+  }
+  .background1 .buttons {
+    margin-bottom: 36px;
+  }
+  .frame1-text {
+    font-size: 30px;
+  }
+  .frame1-text1 {
+    font-size: 18px;
+  }
+  .frame2-text {
+    font-size: 28px;
+  }
+  .frame2-text1 {
+    font-size: 18px;
+  }
+  .back311 {
+    width: 390px;
+  }
+  .background31 .buttons {
+    font-size: 14px;
+  }
+
+  .background31 .subtitle {
+    font-size: 18px;
+  }
+  #airpod4 {
+    width: 390px;
+    height: 500px;
+  }
+  .background4 {
+    gap: 12px;
+    display: grid;
+    margin-bottom: 12px;
+    grid-auto-rows: 580px;
+    background-size: cover;
+  }
 }
