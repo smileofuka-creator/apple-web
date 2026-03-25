@@ -258,10 +258,11 @@ a {
 
 .listitem {
   position: relative;
-  width: 480px;
+  min-width: 480px;
   height: 500px;
   background: url(<path-to-image>) lightgray 0px 0px / 100% 100% no-repeat;
   gap: 12px;
+  border-radius: 18px;
 }
 
 #iphone16pro {
@@ -283,7 +284,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
   padding: 30px;
-  gap: 9px;
+  gap: 8px;
 }
 .listitem-head {
   display: flex;
@@ -304,11 +305,34 @@ a {
   line-height: 16px; /* 133.333% */
 }
 
-.listdetial1 {
-  padding-top: 53px;
+.heading31 {
+  display: flex;
+  width: 132px;
+  height: 14px;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #6e6e73;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+}
+.heading6 {
+  color: #6e6e73;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  width: 330.67px;
+}
+.listdetial {
+  padding-top: 32px
   padding-left: 30px;
   gap: 12px;
-  width: 217px;
+  width: 320px;
 }
 .listitem-text {
   color: #1d1d1f;
@@ -318,14 +342,20 @@ a {
   font-weight: 700;
   line-height: 32px; /* 123.077% */
   letter-spacing: 0.196px;
+  width: 230px;
 }
+#iphone16pro .listitem-text1 {
+  width: 317px;
+}
+
 .listitem-text1 {
   color: #1d1d1f;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 17px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 20px; /* 111.111% */
+  font-weight: 400;
+  line-height: 20px; /* 117.647% */
+  width: 257px;
 }
 
 .listitem-text2 {
@@ -342,7 +372,23 @@ a {
   font-weight: 400;
   line-height: 18px; /* 128.571% */
 }
-
+.listitem-text61 {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.077% */
+  width: 320.79px;
+}
+.listitem-text6 {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 117.647% */
+}
 #headphone {
   background-image: url("./images1/section2/headphone.jpg");
   background-size: cover;
@@ -410,4 +456,202 @@ a {
 }
 #item5 {
   background-image: url("./images1/section2/5.jpg");
+}
+
+/* 2r heseg */
+
+#backage {
+  background-image: url("./images1/section3/store1.png");
+}
+#item21 {
+  background-image: url("./images1/section3/case/1.jpg");
+}
+#item22 {
+  background-image: url("./images1/section3/case/2.jpg");
+}
+#item23 {
+  background-image: url("./images1/section3/case/3.jpg");
+}
+#item24 {
+  background-image: url("./images1/section3/case/4.jpg");
+}
+#item25 {
+  background-image: url("./images1/section3/case/5.jpg");
+}
+#item26 {
+  background-image: url("./images1/section3/case/6.jpg");
+}
+
+#item31 {
+  background-image: url("./images1/section3/homepod/1.jpg");
+}
+#item32 {
+  background-image: url("./images1/section3/homepod/2.jpg");
+}
+#item33 {
+  background-image: url("./images1/section3/homepod/3.jpg");
+}
+#item34 {
+  background-image: url("./images1/section3/homepod/4.jpg");
+}
+#item35 {
+  background-image: url("./images1/section3/homepod/5.jpg");
+}
+
+#item41 {
+  background-image: url("./images1/section3/folio/1.jpg");
+}
+#item42 {
+  background-image: url("./images1/section3/folio/2.jpg");
+}
+#item43 {
+  background-image: url("./images1/section3/folio/3.jpg");
+}
+#item44 {
+  background-image: url("./images1/section3/folio/4.jpg");
+}
+
+#item51 {
+  background-image: url("./images1/section3/beats/source/bla.jpg");
+}
+#item52 {
+  background-image: url("./images1/section3/beats/source/2.jpg");
+}
+#item53 {
+  background-image: url("./images1/section3/beats/source/3.jpg");
+}
+
+#bag {
+  background-image: url("");
+}
+
+#backage .listitem-text {
+  width: 285px;
+}
+#bag {
+  background-image: url("./images1/section4/bag.png");
+}
+#bag .listitem-text {
+  width: 300px;
+}
+.four {
+  min-width: 646px;
+  height: 500px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.one {
+  width: 313px;
+  height: 240px;
+
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 127.273% */
+
+  padding-left: 30px;
+  padding-top: 82px;
+  padding-right: 45px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+}
+
+#twophones {
+  background-image: url("./images1/section4/phones.png");
+}
+#twophones .listitem-text {
+  width: 335px;
+}
+
+#five1 {
+  background-image: url("./images1/section5/1.png");
+}
+#five2 {
+  background-image: url("./images1/section5/2.png");
+}
+
+#five2 .heading31 {
+  color: #f5f5f7;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+}
+#five2 .listitem-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.077% */
+  width: 404px;
+}
+#five3 {
+  background-image: url("./images1/section5/3.png");
+}
+#five3 .listitem-text {
+  width: 404px;
+}
+#five4 {
+  background-image: url("./images1/section5/4.png");
+}
+#five4 .listitem-text {
+  width: 404px;
+}
+
+#six1 {
+  background-image: url("./images1/section6/1.png");
+}
+
+#six2 {
+  background-image: url("./images1/section6/2.png");
+}
+
+#six3 {
+  background-image: url("./images1/section6/3.png");
+}
+#six4 {
+  background-image: url("./images1/section6/4.png");
+}
+#six4 .listitem-text61 {
+  color: white;
+}
+#six5 {
+  background-image: url("./images1/section6/5.jpg");
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  padding: 0 140px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.foot-text {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.077% */
+}
+.foot-text1 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.foot-text11 {
+  display: flex;
+  padding: 10px 12px;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 999px;
+  border: 1px solid #1d1d1f;
 }

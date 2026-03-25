@@ -139,6 +139,7 @@ a :-webkit-any-link {
   align-items: center;
   justify-content: center;
   gap: 16px;
+  margin-top: 8px;
 }
 .learnmore {
   display: flex;
@@ -388,6 +389,7 @@ a :-webkit-any-link {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 }
 .colorword {
   text-align: center;
