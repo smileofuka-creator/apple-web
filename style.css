@@ -18,12 +18,17 @@ a :-webkit-any-link {
   display: flex;
   width: 100%;
   height: 44px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 24px;
   background: rgba(245, 245, 247, 0.8);
   margin-top: 8px;
   padding: 15px;
+}
+.logo {
+  display: flex;
+  gap: 24px;
+  align-items: center;
 }
 .bars {
   display: flex;
@@ -52,7 +57,9 @@ a :-webkit-any-link {
 }
 .head-textnav {
   display: flex;
+  align-items: center;
   gap: 24px;
+  height: 44px;
 }
 .headtitle {
   display: flex;
@@ -280,6 +287,9 @@ a :-webkit-any-link {
   justify-content: flex-end;
   padding-bottom: 82px;
   margin-bottom: 12px;
+}
+.background31 {
+  display: none;
 }
 .frame3 {
   display: flex;
