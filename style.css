@@ -413,7 +413,6 @@ a :-webkit-any-link {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-bottom: 53px;
 }
 #airpod {
   background-image: url("images/Figurehead.png");
