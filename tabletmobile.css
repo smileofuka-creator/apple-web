@@ -12,7 +12,6 @@
 }
 #business {
   display: none;
-  padding: 52px;
 
   align-items: center;
 }
@@ -22,13 +21,30 @@
   display: none;
 }
 @media (max-width: 768px) {
+  .background4 {
+    /* background-size: cover;
+    display: block; */
+    /* grid-auto-rows: 0%; */
+    display: flex;
+    gap: 12px;
+    /* grid-auto-rows: 580px; */
+  }
+  .bus {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .background3 {
     display: none;
   }
   .background31 {
     display: block;
   }
-
+  .box {
+    height: 490px;
+  }
   .menubar {
     display: block;
   }
@@ -94,17 +110,26 @@
   }
   #iPad {
     display: none;
-    width: 100%;
+    /* width: 100%; */
+  }
+  #tradein {
+    width: 48%;
   }
 
+  #airpod4 .box {
+    display: flex;
+    justify-content: flex-end;
+  }
   #airpod4 {
     display: flex;
+    width: 48%;
   }
   #airpod {
     display: none;
   }
   #watch {
     background-image: url("./tablet/watch.png");
+    width: 48%;
   }
   #business {
     background-image: url("./tablet/small.png");
@@ -112,6 +137,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 48%;
+  }
+  #business .container-text {
+    padding-left: 55px;
   }
   #carrier {
     background-image: url("./tablet/career.png");
@@ -119,6 +148,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 48%;
+  }
+  #carrier .box {
+    display: flex;
+    justify-content: flex-end;
   }
 
   #card {
@@ -175,6 +209,22 @@
   .background2 {
     background-image: url("./mobile/back2.png");
     height: 500px;
+    width: 100vw;
+  }
+  #airpod4 {
+    width: 100vw;
+  }
+  #watch {
+    width: 100vw;
+  }
+  #macbookair {
+    width: 100vw;
+  }
+  #carrier {
+    width: 100vw;
+  }
+  #tradein {
+    width: 100vw;
   }
   .frame1 {
     gap: 0px;
@@ -199,8 +249,22 @@
   .frame2-text1 {
     font-size: 18px;
   }
-  .back311 {
-    width: 390px;
+
+  .footer {
+    height: 134px;
+  }
+  .linka {
+    width: 238px;
+    height: 134px;
+    flex-shrink: 0;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .pic {
+    width: 114px;
+    height: 114px;
+    padding-top: 10px;
   }
   .background31 .buttons {
     font-size: 14px;
@@ -209,15 +273,65 @@
   .background31 .subtitle {
     font-size: 18px;
   }
-  #airpod4 {
+  /* #airpod4 {
     width: 390px;
     height: 500px;
-  }
+  } */
   .background4 {
     gap: 12px;
     display: grid;
     margin-bottom: 12px;
-    grid-auto-rows: 580px;
     background-size: cover;
+    grid-template-columns: none;
+  }
+  .scrollframe {
+    min-width: 274px;
+    height: 495px;
+  }
+  /* .scroll-item {
+    display: none;
+  } */
+
+  #item1 {
+    background-image: url("./images1/mobilelast/Link-1.png");
+    background-size: cover;
+  }
+  #item2 {
+    background-image: url("./images1/mobilelast/Link-2.png");
+  }
+  #item3 {
+    background-image: url("./images1/mobilelast/Link-3.png");
+  }
+  #item4 {
+    background-image: url("./images1/mobilelast/Link-4.png");
+  }
+  #item5 {
+    background-image: url("./images1/mobilelast/Link-5.png");
+  }
+  #item6 {
+    background-image: url("./images1/mobilelast/Link-6.png");
+  }
+  #item7 {
+    background-image: url("./images1/mobilelast/Link-7.png");
+  }
+  #item8 {
+    background-image: url("./images1/mobilelast/Link.png");
+  }
+  #item9 {
+    display: none;
+  }
+  #item10 {
+    display: none;
+  }
+
+  #business {
+    width: 100vw;
+  }
+  .scroll {
+    height: 495px;
+    /* margin-top: 1785px; */
+  }
+  .scroll-item {
+    display: none;
   }
 }
