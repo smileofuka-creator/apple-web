@@ -41,7 +41,6 @@ a :-webkit-any-link {
 .headbar {
   display: flex;
   gap: 24px;
-  background: rgba(245, 245, 247, 0.8);
 }
 .head-text {
   color: #000;
