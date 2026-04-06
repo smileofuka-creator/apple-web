@@ -405,7 +405,7 @@
 //   for (let j = 1; j <= 3 - i; j++) {
 //     line = line + " ";
 //   }
-//   for (let k = 1; k <= 2 * i - 1; k++) {
+//   for (let еееk = 1; k <= 2 * i - 1; k++) {
 //     line = line + "*";
 //   }
 //   console.log(line);
@@ -422,18 +422,6 @@
 // }
 
 // 3.
-
-// let n = 3;
-// let r = 5;
-
-// for (let i = 1; i <= n; i++) {
-//   let line = 3;
-//   for (let j = 1; j <= r; j) {
-//     line = line + j;
-//     for (let k = 2; k <= 12; k = k + 2) line = line + k;
-//   }
-//   console.log(line);
-// }
 
 // for (let i = 1; i < 10; i++) {
 //   for (let j = 1; j < 10; j++) {
@@ -463,7 +451,7 @@
 
 // hollow square
 
-let n = 4;
+let n = 6;
 for (let i = 1; i <= n; i++) {
   let star = "";
   for (let j = 1; j <= n; j++) {
@@ -476,8 +464,101 @@ for (let i = 1; i <= n; i++) {
   console.log(star);
 }
 
+//uur arga
+
+// let width = 30;
+// let height = 10;
+// let od = "";
+
+// for (let i = 0; i < height; i++) {
+//   for (let j = 0; j < width; j++) {
+//     if (i == 0 || i == height - 1 || j == 0 || j == width - 1) {
+//       od += "*";
+//     } else {
+//       od += " ";
+//     }
+//   }
+//   console.log(od);
+//   od = "";
+// }
+
 // let star = "";
 // for (i = 1; i <= 10; i++) {
 //   star = star + "*";
 //   console.log(star);
 // }
+
+// 1 deh udur
+
+// let sum = 0;
+// for (let i = 1; i <= 100; i++)
+//   if (i % 4 === 0 && i % 16 !== 0) {
+//     sum++;
+//   }
+// console.log(sum);
+
+// 1 - 100 хүртэлх 4-д хуваагддаг 16-д хуваагдаггүй хэдэн тоо байна вэ ?
+// 2 - 476 - 2980 хүртэлх 4-д хуваагддаг 16-д хуваагдаггүй хэдэн тоо байна вэ.
+
+// let sum = 0;
+// for (let i = 476; i <= 2980; i++)
+//   if (i % 4 === 0 && i % 16 !== 0) {
+//     sum++;
+//   }
+// console.log(sum);
+
+// let sum = 0;
+
+// for (let i = 1; i <= 100; i++)
+//   if (i % 16 === 0) {
+//   } else {
+//     if (i % 4 === 0) {
+//       sum++;
+//     }
+//   }
+// console.log(sum);
+
+// let n = 5;
+
+// for (let i = 1; i <= 3; i++) {
+//   let line = "";
+
+//   for (let j = 1; j <= n; j++) {
+//     if (i === 1) {
+//       line = line + j + " ";
+//     } else if (i === 2) {
+//       line = line + j * 2 + " ";
+//     } else if (i === 3) {
+//       line = line + (j * 2 - 1) + " ";
+//     }
+//   }
+//   console.log(line);
+// }
+
+// let string = "hello world";
+
+// console.log(string[1]);
+// console.log(string[3]);
+// console.log(string[5]);
+// or ingj hj bolno
+
+// console.log(string[1], string[3],string[5])
+// console.log(string[0], string[2],string[4])
+
+// console.log(string.toUpperCase());
+// console.log(string.toLowerCase());
+// console.log(string.replaceAll("l", "b"));
+
+// console.log(string.replace("ll", "lb"));
+
+//anhni toonii niilberuudig ol ?
+
+// let sum = 0;
+// for (let i = 2; i <= 100; i++) {
+//   if (i == 2 || i == 3 || i == 5 || i == 7) {
+//     sum += i;
+//   } else if (i % 2 != 0 && i % 3 != 0 && i % 5 != 0 && i % 7 != 0) {
+//     sum += i;
+//   }
+// }
+// console.log(sum);
