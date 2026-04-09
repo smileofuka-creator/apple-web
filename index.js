@@ -451,18 +451,18 @@
 
 // hollow square
 
-let n = 6;
-for (let i = 1; i <= n; i++) {
-  let star = "";
-  for (let j = 1; j <= n; j++) {
-    if (i === 1 || i === n || j === 1 || j === n) {
-      star += "*";
-    } else {
-      star += " ";
-    }
-  }
-  console.log(star);
-}
+// let n = 6;
+// for (let i = 1; i <= n; i++) {
+//   let star = "";
+//   for (let j = 1; j <= n; j++) {
+//     if (i === 1 || i === n || j === 1 || j === n) {
+//       star += "*";
+//     } else {
+//       star += " ";
+//     }
+//   }
+//   console.log(star);
+// }
 
 //uur arga
 
@@ -528,37 +528,389 @@ for (let i = 1; i <= n; i++) {
 //       line = line + j + " ";
 //     } else if (i === 2) {
 //       line = line + j * 2 + " ";
-//     } else if (i === 3) {
-//       line = line + (j * 2 - 1) + " ";
-//     }
+// //     } else if (i === 3) {
+// //       line = line + (j * 2 - 1) + " ";
+// //     }
+// //   }
+// //   console.log(line);
+// // }
+
+// // let string = "hello world";
+
+// // console.log(string[1]);
+// // console.log(string[3]);
+// // console.log(string[5]);
+// // or ingj hj bolno
+
+// // console.log(string[1], string[3],string[5])
+// // console.log(string[0], string[2],string[4])
+
+// // console.log(string.toUpperCase());
+// // console.log(string.toLowerCase());
+// // console.log(string.replaceAll("l", "b"));
+
+// // console.log(string.replace("ll", "lb"));
+
+// //anhni toonii niilberuudig ol ?
+
+// // let sum = 0;
+// // for (let i = 2; i <= 100; i++) {
+// //   if (i == 2 || i == 3 || i == 5 || i == 7) {
+// //     sum += i;
+// //   } else if (i % 2 != 0 && i % 3 != 0 && i % 5 != 0 && i % 7 != 0) {
+// //     sum += i;
+// //   }
+// // }
+// // console.log(sum);
+
+// // 2 dahi udur
+
+// let username = "sf";
+// if (username.length > 3) {
+//   console.log("passportoo uusgene uu");
+// } else {
+//   console.log("bogino bn username");
+// }
+
+// let password = "sdkdfsafdf";
+// if (password.length > 8) {
+//   console.log("uusgeh bolomjtoi bn");
+// } else {
+//   console.log("password is too short");
+// }
+
+// 3 dahi bodlogo uunig dahin shalgah heregt
+
+// let password = "Qwerty124";
+// let tom = false;
+// let jijig = false;
+// let too = false;
+
+// for (let i = 1; i <= password.length; i++) {
+//   gal = password [i];
+
+//   if ( jijig && tom && too); {
+//     console.log("powerpassword");
+//   } else {
+//     if (!jijig || !tom);
+//     console.log("useg tom jijig bn");
+//     if (!too);
+//     console.log("too oruul");
+//   }
+// }
+
+// console.log("password");
+
+// daraagin 5 n bodlogo 1.
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// 2.
+
+// for (let i = 1; i <= 20; i++) {
+//   if (i % 2 === 0) console.log(i);
+// }
+
+// 3;
+// let n = "";
+// let sum = 0;
+
+// for (let i = 1; i <= n; i++) sum = sum + i;
+// console.log(sum);
+
+// //4.
+// let count = 0;
+// let input = 12345674;
+// for (let i = input; i >= 1; i = i / 10) count++;
+// console.log(count);
+
+//5. dahin bodoh heregtei
+
+// let number = "1234";
+//reverse = 0
+// for ( let i = 1;
+// )
+// console.log(number.);
+
+// let number = 12345;
+// let reverse = 0;
+// for (let i = number; i >= 1; i = Math.floor(i / 10)) {
+//     reverse = reverse * 10 + i % 10;
+// }
+// console.log(reverse)
+
+//homework
+
+// 1. Print numbers
+
+// Print numbers from 1 to 5
+
+// for (let i = 1; i <= 5; i++) console.log(i);
+
+// 2.
+//Print number n, n times
+
+// etc n = 7
+
+// 7
+
+// 7
+
+// 7
+
+// 7
+
+// 7
+
+// 7
+
+// 7
+
+// let n = 5;
+
+// for (let i = 1; i <= n; i++) {
+//   let line = "";
+//   for (let j = 1; j <= i; j++) {
+//     line = line + i + " ";
 //   }
 //   console.log(line);
 // }
 
-// let string = "hello world";
+// 3. Print backward
 
-// console.log(string[1]);
-// console.log(string[3]);
-// console.log(string[5]);
-// or ingj hj bolno
+// let number = 12345;
+// let reverse = 0;
+// for (let i = number; i >= 1; i = Math.floor(i / 10)) {
+//   reverse = reverse * 10 + (i % 10);
+// }
+// console.log(reverse);
 
-// console.log(string[1], string[3],string[5])
-// console.log(string[0], string[2],string[4])
+// Print numbers from 5 to 1
 
-// console.log(string.toUpperCase());
-// console.log(string.toLowerCase());
-// console.log(string.replaceAll("l", "b"));
+// let n = 5;
+// for (let i = n; i >= 1; i--) {
+//   console.log(n);
+// }
 
-// console.log(string.replace("ll", "lb"));
+// 4 сарын 8  ны өдрийн хичээл
 
-//anhni toonii niilberuudig ol ?
+// let n = 5;
 
-// let sum = 0;
-// for (let i = 2; i <= 100; i++) {
-//   if (i == 2 || i == 3 || i == 5 || i == 7) {
-//     sum += i;
-//   } else if (i % 2 != 0 && i % 3 != 0 && i % 5 != 0 && i % 7 != 0) {
-//     sum += i;
+// for (let i = 1; i < 11; i++) {
+//   console.log(n, "x", i, "=", n * i);
+// }
+
+// 1. H e l l o
+// let string = "Hello";
+// for (let i = 0; i < string.length; i++) {
+//   console.log(string[i]);
+// }
+
+// 2. revese hello
+// o l l e h
+
+// let string = "Hello";
+// for (let i = string.length - 1; i >= 0; i--) {
+//   console.log(string[i]);
+// }
+
+// 3.
+// let string = "Hello";
+// let reversed = "";
+// for (let i = string.length - 1; i >= 0; i--) {
+//   reversed = reversed + string[i];
+// }
+// console.log(reversed);
+
+//1. "hello world"
+//2. reversed => "olleH dlroW"
+//3. 2 to 4 index switch value
+// output "Heoll", "Wodlr"
+
+//1. "hello world"
+
+// let string = "hello";
+// let string2 = "world";
+
+// console.log(string + " " + string2);
+
+//2. reversed => "olleH dlroW"
+
+// let reservedstring = "";
+// let reservedstring2 = "";
+
+// for (let i = string.length - 1; i >= 0; i--) {
+//   reservedstring = reservedstring + string[i];
+// }
+// for (let j = string2.length - 1; j >= 0; j--) {
+//   reservedstring2 = reservedstring2 + string[j];
+// }
+// console.log(reservedstring + " " + reservedstring2);
+
+//3. 2 to 4 index switch value
+// output "Heoll", "Wodlr"
+
+// let temp = string[2];
+// string[4] = string[2];
+// let result = "";
+
+// for (let i = 0; i < string.length; i++) {
+//   if (i === 2) {
+//     temp = string[2];
+//     result += string[4];
+//   } else if (i === 4) {
+//     result += temp;
+//   } else {
+//     result += string[i];
 //   }
 // }
-// console.log(sum);
+// console.log(result);
+
+// odtoi bodloguud
+
+// let star = "";
+
+// for (let i = 1; i <= 5; i++) {
+//   let star = "";
+//   for (let j = 1; j <= 5; j++) {
+//     star = star + "* ";
+//   }
+
+//   console.log(star);
+// }
+
+// let star = "";
+
+// for (let i = 1; i <= 5; i++) {
+//   let star = "";
+//   for (let j = 1; j <= 5; j++) {
+//     if (j === 3) star = star + " - ";
+//     else {
+//       star = star + " * ";
+//     }
+//   }
+//   console.log(star);
+// }
+
+// let star = "";
+
+// for (let i = 1; i <= 5; i++) {
+//   let star = "";
+//   for (let j = 1; j <= 5; j++) {
+//     if (j === 3) star = star + " - ";
+//     else if (j === 2 || j === 4) star = star + " + ";
+//     else {
+//       star = star + " * ";
+//     }
+//   }
+//   console.log(star);
+// }
+
+// for (let undur = 1; undur <= 5; undur++) {
+//   let star = "";
+//   for (let urgun = 1; urgun <= 5; urgun++) {
+//     if (urgun === 3) star = star + " - ";
+//     else if (urgun === 2 || urgun === 4) star = star + " + ";
+//     else {
+//       star = star + " * ";
+//     }
+//   }
+//   console.log(star);
+// }
+
+// 4 сарын 9 ний өдөр
+
+// let hobbys = ["movies", "talking with friends", "cup", "glass", "thinking"];
+// // console.log(hobbys[1]);
+// // console.log(hobbys[2]);
+// // console.log(hobbys.length);
+
+// for (let i = 0; i < hobbys.length; i++) {
+//   console.log(hobbys[i]);
+// }
+
+// let ages = [
+//   28, 36, 30, 32, 23, 41, 38, 21, 36, 22, 23, 23, 22, 22, 21, 44, 25, 24,
+// ];
+// let sum = 0;
+
+// for (let i = 0; i < ages.length; i++) {
+//   sum += ages[i];
+// }
+// let average = sum / ages.length;
+// console.log(average.toFixed(0));
+
+// // console.log(ages[9]);
+// let min = ages[0];
+// let max = ages[0];
+
+// for (let i = 1; i < ages.length; i++) {
+//   if (max < ages[i]) {
+//     max = ages[i];
+//   } else if (min > ages[i]) {
+//     min = ages[i];
+//   }
+// }
+// console.log(min, max);
+
+// let isDuplicatd = false;
+// for (let i = 0; i < ages.length; i++)
+//   for (let j = i + 1; j < ages.length; j++) {
+//     if (ages[i] === ages[j]) {
+//       isDuplicatd = true;
+//       break
+//     }
+//   }
+// console.log(isDuplicatd);
+
+// +25 s deesh hevle
+
+let ages = [
+  28, 36, 30, 32, 23, 41, 38, 21, 36, 22, 23, 23, 22, 22, 21, 44, 25, 24,
+];
+
+// for (let i = 0; i < ages.length; i++)
+//   if (ages[i] > 25) {
+//     console.log(ages[i]);
+//   }
+
+//  20-29 30-39 40 count
+
+let agecount20 = 0;
+let agecount30 = 0;
+let agecount40 = 0;
+
+// for (let i = 0; i < ages.length; i++)
+//   if (20 < ages[i] && ages[i] < 29) {
+//     agecount20 = agecount20 + 1;
+//   } else if (29 < ages[i] && ages[i] < 39) {
+//     agecount30 = agecount30 + 1;
+//   } else if (40 < ages[i] && ages[i] < 49) {
+//     agecount40 = agecount40 + 1;
+//   }
+// console.log(agecount20, agecount30, agecount40);
+
+//3. 20-29 n dundaj 30- 39 nasni dundaj
+
+let agecount20sum = 0;
+let agecount30sum = 0;
+let agecount40sum = 0;
+for (let i = 0; i < ages.length; i++) {
+  if (20 < ages[i] && ages[i] < 29) {
+    agecount20sum = agecount20sum + ages[i];
+    agecount20 = agecount20 + 1;
+  } else if (29 < ages[i] && ages[i] < 39) {
+    agecount30sum = agecount30sum + ages[i];
+    agecount30 = agecount30 + 1;
+  } else if (40 < ages[i] && ages[i] < 49) {
+    agecount40sum = agecount40sum + ages[i];
+    agecount40 = agecount40 + 1;
+  }
+}
+console.log(
+  (agecount20sum / agecount20).toFixed(0),
+  (agecount30sum / agecount30).toFixed(0),
+  (agecount40sum / agecount40).toFixed(0),
+);
